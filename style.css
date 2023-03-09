@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.nav-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    
+}
+input{
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    
+}
+.login{
+border-radius: 50px;
+padding: 10px;
+width:95px ;
+background-color: white;
+margin-right: 90px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 47px;
+    background-color: rgba(6, 6, 6, 0);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.active{
+    border-bottom: 1px solid rgba(186, 46, 186, 0);
+    transition: all 0.5s ease;
+}
+.active:hover{
+    border-bottom: 1px solid rgb(186, 46, 186);
+    transform: translate( 2px 0px);
+}
+.top-img{
+   position: absolute;
+}
+
+/* nav-bar */
+
+
+.content{
+    margin-left: 8%;
+    color: rgb(104, 103, 103);
+    margin-top: 10%;z-index: 1;
+}
+.content span{
+    color: rgb(176, 72, 207);
+}
+.content p{
+    color: rgb(166, 167, 167);
+    margin-left: 3px;
+    
+}
+.sec1{
+    display: flex;
+    margin-top: 2%;
+    
+}
+.imgs{
+    margin-left: 58%;
+    margin-top: 2%;
+    position: absolute;
+    z-index: 1;
+}
+.mask{
+    margin-top: 5%;
+    margin-left: 36%;
+    z-index: 2;
+    
+
+}
+.cloud{
+    z-index: 3;
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 18%;
+    
+}
+.wave{
+    position: absolute;
+    z-index: 4;
+    margin-top: 19%;
+    
+}
+
+/*----- */
+.moto{
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 10%;
+}
+.moto h3{
+    margin-left: 17%;
+    color: rgb(146, 146, 145);
+}
+.moto img{
+    margin-left: 13%;
+}
+.moto p{
+    margin-left: 5%;
+    color: rgb(188, 187, 187);
+}
+.moto span{
+    color: rgb(188, 187, 187);
+}
+
+
+/* ------ */
+.clock{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 46%;
+}
+.clock img{
+    margin-left: 12%;
+}
+.clock h3{
+    margin-left: 16%;
+    color: rgb(146, 146, 145);
+
+}
+.clock p{
+    margin-left: 0%;
+    color: rgb(188, 187, 187);
+}
+.clock span{
+    margin-left: 9%;
+    color: rgb(146, 146, 145);
+}
+
+/* -------- */
+.discount{
+    position: absolute;
+    margin-left: 68%;
+    margin-top: 65%;
+}
+.discount img{
+    margin-left: 9%;
+}
+.discount h3{
+    margin-left: 30%;
+    color: rgb(146, 146, 145);
+}
+.discount p{
+    margin-left: 3%;
+    color: rgb(146, 146, 145);
+}
+.discount span{
+    color: rgb(146, 146, 145);
+}
+
+/* -------- */
+
+.line{
+    position: absolute;
+    width: 1000px;
+    margin-top: 31%;
+    margin-left: 20%;
+    z-index: -1;
+}
+/* --------- */
+
+.why{
+    position: absolute;
+    margin-top: 44%;
+    margin-left: 10%;
+}
+.sec2 p{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 15%;
+    color: aliceblue;
+}
+.sec2 h1{
+    position: absolute;
+    margin-top: 52%;
+    margin-left: 15%;
+    color: aliceblue;
+}
+ /* ------ */
+
+ .jumb{
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 15%;
+ }
+ .sec3 input{
+    position: absolute;
+    margin-top:82% ;
+    margin-left: 30%;
+    
+ }
+ .fly img{
+    position: absolute;
+    margin-top: 65%;
+    margin-left: 39%;
+
+ }
+ .fly h3{
+    position: absolute;
+    margin-top: 87%;
+    margin-left: 47%;
+    color: rgb(146, 146, 145);
+   
+
+ }
+ .fly p{
+    position: absolute;
+    margin-top: 91%;
+    margin-left: 48%;
+    color: rgb(146, 146, 145);
+    
+
+
+
+ }
+ .fly span{
+    margin-left: 15%;
+    color: rgb(146, 146, 145);
+ }
+ .sec3 input{
+    
+    color: rgb(146, 146, 145);
+ }
+
+ .mony{
+    position: absolute;
+    margin-top: 71%;
+     margin-left: 75%;
+ }
+
+ /* ------ */
+
+
+   footer{
+   position: relative;
+    background-image: url(Group1131.png);
+    background-size:cover;
+    width: 200 ;
+    height: 550px;
+    background-repeat:no-repeat;
+    margin-top: 1400px;
+   }
+
+footer{
+    border: 2px solid rgba(255, 0, 0, 0);
+    width: 100%;
+    height: 450px;
+    
+    
+ }
+
+ .apps{
+    display: flex;
+    margin: 4%;
+    margin-top: 22%;
+ }
+ 
+ .app{
+    border: 1px solid rgba(255, 0, 0, 0);
+    border-radius: 5px;
+    display: flex;
+   background-color: white;
+    justify-content: center;
+   align-items: center;
+   margin-right: 2%;
+   width: 90px;
+   height: 30px;
+ }
+ .app p{
+margin-top: 0px;
+margin-left: 5px;
+margin-bottom: 5px;
+font-size: 7px;
+color: rgb(179, 180, 180);
+ }
+.app h4{
+    position: absolute;
+    margin-top: 16px;
+    font-size: 10px;
+    color: rgb(179, 180, 180);
+}
+.app img{
+   position: absolute;
+    margin-right: 60px;
+    margin-top: 0px;
+}
+
+
+.google{
+    border: 1px solid rgba(255, 0, 0, 0);
+    border-radius: 5px;
+    display: flex;
+   background-color: white;
+    justify-content: center;
+   align-items: center;
+   margin-right: 5%;
+   width: 90px;
+   height: 30px;
+  
+ }
+ .google p{
+margin-top: 0px;
+margin-left: 5px;
+margin-bottom: 5px;
+font-size: 7px;
+color: rgb(179, 180, 180);
+ }
+ .google h4{
+    position: absolute;
+    margin-top: 16px;
+    font-size: 10px;
+    color: rgb(179, 180, 180);
+}
+.google img{
+   position: absolute;
+    margin-right: 60px;
+
+}
+ 
+
+/* --------- */
+
+.social{
+    margin-top: 50px;
+    position: absolute;
+    
+}
+.insta{
+    margin-right: 5px;
+}
+.whats{
+    margin-right: 5px;
+}
+
+.list{
+
+    margin-top: 80px;
+    position: absolute;
+    
+    
+}
+.home{
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+}
+.serv{
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+}
+.about{
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+}
+.help{
+    color: white;
+    text-decoration: none;
+}
+.f-img{
+    position: absolute;
+    margin-top: 9.75%;
+    margin-left: 55%;
+}
